@@ -1,6 +1,6 @@
 * {box-sizing: border-box; }
 
-body {
+body{
 	font-family: Arial, Helvetica, sans-serif; 
 	font-size: 18;
 	background-color: whitesmoke;
@@ -8,6 +8,19 @@ body {
 
 header{
 	font-size: 24;
+}
+
+h2{
+	color: dimgrey;
+	text-align: right;
+	padding-right: 50px;
+
+}
+
+/*my image*/
+#me {
+	float: right;
+	padding: 10px;
 }
 
 nav{
@@ -32,18 +45,12 @@ nav ul li a{
 	text-decoration: none;
 }
 
-footer{
-	display: inline-block;
-}
+
 
 .col{
 	float: left;
 	width: 33.3%
-	width:calc(100%/3);
-}
-
-.myimages-container{
-	overflow: auto;
+	width: calc(100%/3);
 }
 
 .bio-text{
@@ -51,4 +58,19 @@ footer{
 	background-color: lightsteelblue;
 	text-align: center;
 	padding: 3rem;
+}
+
+figure{
+  color: dimgrey;
+  font-size: 8;
+  padding: .5rem 0;
+  
+}
+
+figcaption{
+	text-align: center;
+}
+
+.myimages-container{
+	padding-left: 220px;
 }
