@@ -1,6 +1,6 @@
 * {box-sizing: border-box; }
 
-body{
+body {
 	font-family: Arial, Helvetica, sans-serif; 
 	font-size: 18;
 	background-color: whitesmoke;
@@ -45,7 +45,9 @@ nav ul li a{
 	text-decoration: none;
 }
 
-
+main{
+	padding: 4rem 0;
+}
 
 .col{
 	float: left;
@@ -91,4 +93,13 @@ figcaption{
 #homeselfie{
 	margin: auto;
 	display:block;
+}
+
+.emblem{
+	overflow: auto;
+	float: left;
+  	width: 33.3%;
+  	width: calc(100%/3);
+  	padding-left: 100px;
+  	color:dimgrey;
 }
