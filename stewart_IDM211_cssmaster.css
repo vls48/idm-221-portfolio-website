@@ -14,7 +14,6 @@ h2{
 	color: dimgrey;
 	text-align: right;
 	padding-right: 50px;
-
 }
 
 /*my image*/
@@ -32,7 +31,6 @@ nav{
 nav ul{
 	list-style: none;
 	margin: 0;
-
 }
 
 nav ul li{
@@ -91,7 +89,7 @@ figcaption{
 
 #homeselfie{
 	margin: auto;
-	display:block;
+	display: block;
 }
 
 .emblem{
@@ -100,5 +98,5 @@ figcaption{
   	width: 33.3%;
   	width: calc(100%/3);
   	padding-left: 100px;
-  	color:dimgrey;
+  	color: dimgrey;
 }
