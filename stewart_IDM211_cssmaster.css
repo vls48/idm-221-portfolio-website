@@ -1,3 +1,45 @@
+/*
+#    /$$$$$$                        /$$
+#   /$$__  $$                      | $$
+#  | $$  \__/  /$$$$$$  /$$$$$$$  /$$$$$$    /$$$$$$$
+#  | $$$$     /$$__  $$| $$__  $$|_  $$_/   /$$_____/
+#  | $$_/    | $$  \ $$| $$  \ $$  | $$    |  $$$$$$
+#  | $$      | $$  | $$| $$  | $$  | $$ /$$ \____  $$
+#  | $$      |  $$$$$$/| $$  | $$  |  $$$$/ /$$$$$$$/
+#  |__/       \______/ |__/  |__/   \___/  |_______/
+#
+#
+#
+*/
+
+@font-face {
+  font-family: 'Dosis-Regular';
+  src: url('Dosis-Regular.eot?#iefix') format('embedded-opentype'),  url('Dosis-Regular.woff') format('woff'), url('Dosis-Regular.ttf')  format('truetype'), url('Dosis-Regular.svg#Dosis-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ff-body{
+	font-family: 'Dosis-Regular', Arial, sans-serif;
+}
+
+.ff-header{
+	font-family: 'Cabin Sketch', Arial, sans-serif;
+}
+
+/*
+#                                                               /$$
+#                                                              | $$
+#    /$$$$$$   /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$ | $$
+#   /$$__  $$ /$$__  $$| $$__  $$ /$$__  $$ /$$__  $$ |____  $$| $$
+#  | $$  \ $$| $$$$$$$$| $$  \ $$| $$$$$$$$| $$  \__/  /$$$$$$$| $$
+#  | $$  | $$| $$_____/| $$  | $$| $$_____/| $$       /$$__  $$| $$
+#  |  $$$$$$$|  $$$$$$$| $$  | $$|  $$$$$$$| $$      |  $$$$$$$| $$
+#   \____  $$ \_______/|__/  |__/ \_______/|__/       \_______/|__/
+#   /$$  \ $$
+#  |  $$$$$$/
+#   \______/
+*/
 * {box-sizing: border-box; }
 
 body {
@@ -7,10 +49,11 @@ body {
 }
 
 header{
-	font-size: 24px;
+	font-size: 28px;
 }
 
 h2{
+	font-size: 34px;
 	color: dimgrey;
 	text-align: right;
 	padding-right: 50px;
