@@ -20,11 +20,11 @@
 }
 
 .ff-body{
-	font-family: 'Dosis-Regular', Arial, sans-serif;
+	font-family: 'Dosis-Regular', Arial, sans-serif;  /*primary paragraph text font*/
 }
 
 .ff-header{
-	font-family: 'Cabin Sketch', Arial, sans-serif;
+	font-family: 'Alegreya Sans SC', Arial, sans-serif;  /*secondary header font*/
 }
 
 /*
@@ -42,10 +42,20 @@
 */
 * {box-sizing: border-box; }
 
-body {
-	font-family: Arial, Helvetica, sans-serif; 
+body { 
 	font-size: 18px;
-	background-color: whitesmoke;
+	background-image: url(images/general/asanoha.png); /*background star image*/
+}
+
+/*about me footer*/
+figure{ 
+  	color: dimgrey;
+  	font-size: 14px;
+  	padding: .5rem 0;
+}
+
+figcaption{
+	text-align: center;
 }
 
 header{
@@ -59,14 +69,16 @@ h2{
 	padding-right: 50px;
 }
 
-/*my image*/
-.me {
-	float: right;
-	padding: 10px;
+h2 .ff-body{
+	font-size: 20px;
 }
 
+main{
+	padding: 4rem 0;
+}
+
+/*nav styles*/
 nav{
-	color: gray;
 	background-color: lightsteelblue;
 	text-align: center;
 }
@@ -85,17 +97,20 @@ nav ul li a{
 	color: white;
 	text-decoration: none;
 }
-
-main{
-	padding: 4rem 0;
-}
-
-.col{
-	float: left;
-	width: 33.3%;
-	width: calc(100%/3);
-}
-
+/*──────────────────────────────────────────────────────────────────────────────────────────────────────────
+─██████████████─██████─────────██████████████─██████████████─██████████████─██████████████─██████████████─
+─██░░░░░░░░░░██─██░░██─────────██░░░░░░░░░░██─██░░░░░░░░░░██─██░░░░░░░░░░██─██░░░░░░░░░░██─██░░░░░░░░░░██─
+─██░░██████████─██░░██─────────██░░██████░░██─██░░██████████─██░░██████████─██░░██████████─██░░██████████─
+─██░░██─────────██░░██─────────██░░██──██░░██─██░░██─────────██░░██─────────██░░██─────────██░░██─────────
+─██░░██─────────██░░██─────────██░░██████░░██─██░░██████████─██░░██████████─██░░██████████─██░░██████████─
+─██░░██─────────██░░██─────────██░░░░░░░░░░██─██░░░░░░░░░░██─██░░░░░░░░░░██─██░░░░░░░░░░██─██░░░░░░░░░░██─
+─██░░██─────────██░░██─────────██░░██████░░██─██████████░░██─██████████░░██─██░░██████████─██████████░░██─
+─██░░██─────────██░░██─────────██░░██──██░░██─────────██░░██─────────██░░██─██░░██─────────────────██░░██─
+─██░░██████████─██░░██████████─██░░██──██░░██─██████████░░██─██████████░░██─██░░██████████─██████████░░██─
+─██░░░░░░░░░░██─██░░░░░░░░░░██─██░░██──██░░██─██░░░░░░░░░░██─██░░░░░░░░░░██─██░░░░░░░░░░██─██░░░░░░░░░░██─
+─██████████████─██████████████─██████──██████─██████████████─██████████████─██████████████─██████████████─
+──────────────────────────────────────────────────────────────────────────────────────────────────────────*/
+/*about paragraphs*/
 .bio-text{
 	color: dimgray;
 	background-color: lightsteelblue;
@@ -103,38 +118,21 @@ main{
 	padding: 3rem;
 }
 
-figure{
-  color: dimgrey;
-  font-size: 14px;
-  padding: .5rem 0;
+/*column*/
+.col{
+	float: left;
+	width: 33.3%;
+	width: calc(100%/3);
 }
 
-figcaption{
-	text-align: center;
-}
-
-.myimages-container{
-	padding-left: 220px;
-}
-
-.socialmedia{
-	padding-left: 550px;
-}
-
+/*bounding contaxt infor*/
 .contactinfo{
+	padding-left: 10%;
 	padding-right: 10%;
 	font-size: 16px;
 }
 
-#welcome{
-	font-size: 28px;
-}
-
-#homeselfie{
-	margin: auto;
-	display: block;
-}
-
+/*resume content categories*/
 .emblem{
 	overflow: auto;
 	float: left;
@@ -142,4 +140,59 @@ figcaption{
   	width: calc(100%/3);
   	padding-left: 100px;
   	color: dimgrey;
+}
+
+/*about selfie*/
+.me {
+	float: right;
+	padding: 10px;
+}
+
+/*about footer bounding*/
+.myimages-container{
+	padding-left: 220px;
+} 
+
+/*media page containing box*/
+.projects{
+	color: dimgrey;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 100px;
+}
+
+/*contact footer*/
+.socialmedia{
+	padding-left: 550px;
+}
+
+.text-contact{
+	font-weight: 200;
+}
+
+/*──────────────────────────────────────────
+─██████████─████████████───██████████████─
+─██░░░░░░██─██░░░░░░░░████─██░░░░░░░░░░██─
+─████░░████─██░░████░░░░██─██░░██████████─
+───██░░██───██░░██──██░░██─██░░██─────────
+───██░░██───██░░██──██░░██─██░░██████████─
+───██░░██───██░░██──██░░██─██░░░░░░░░░░██─
+───██░░██───██░░██──██░░██─██████████░░██─
+───██░░██───██░░██──██░░██─────────██░░██─
+─████░░████─██░░████░░░░██─██████████░░██─
+─██░░░░░░██─██░░░░░░░░████─██░░░░░░░░░░██─
+─██████████─████████████───██████████████─
+──────────────────────────────────────────*/
+/*home*/
+#welcome{
+	font-size: 28px;
+	text-align: left;
+	padding-left: 125px;
+	padding-top: 25px;
+}
+
+#homeselfie{
+	margin: auto;
+	display: block;
 }
