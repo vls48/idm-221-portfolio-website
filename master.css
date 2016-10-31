@@ -43,7 +43,7 @@
 * {box-sizing: border-box; }
 
 body { 
-	font-size: 18px;
+	font-size: 16px;
 	background-image: url(images/general/asanoha.png); /*background star image*/
 }
 
@@ -66,7 +66,6 @@ h2{
 	font-size: 34px;
 	color: dimgrey;
 	text-align: right;
-	padding-right: 50px;
 }
 
 h2 .ff-body{
@@ -74,7 +73,6 @@ h2 .ff-body{
 }
 
 main{
-	padding: 4rem 0;
 }
 
 /*nav styles*/
@@ -127,9 +125,19 @@ nav ul li a{
 
 /*bounding contaxt infor*/
 .contactinfo{
-	padding-left: 10%;
-	padding-right: 10%;
 	font-size: 16px;
+	max-width: 1100px;
+	max-height: 437px;
+	margin: 60px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.contact-text{
+	display: inline-block;
+	height: 300px;
+	max-width: 700px;
+	padding-left: 450px;
 }
 
 /*resume content categories*/
@@ -164,7 +172,9 @@ nav ul li a{
 
 /*contact footer*/
 .socialmedia{
-	padding-left: 550px;
+	max-width: 325px;
+	padding-top: 50px;
+	margin: auto;
 }
 
 .text-contact{
@@ -184,6 +194,10 @@ nav ul li a{
 ─██░░░░░░██─██░░░░░░░░████─██░░░░░░░░░░██─
 ─██████████─████████████───██████████████─
 ──────────────────────────────────────────*/
+#airplane{
+	padding: 2rem;
+}
+
 /*home*/
 #welcome{
 	font-size: 28px;
