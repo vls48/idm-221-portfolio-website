@@ -66,6 +66,7 @@ h2{
 	font-size: 34px;
 	color: dimgrey;
 	text-align: right;
+	margin: 30px;
 }
 
 h2 .ff-body{
@@ -112,15 +113,19 @@ nav ul li a{
 .bio-text{
 	color: dimgray;
 	background-color: lightsteelblue;
+	margin: auto;
 	text-align: center;
-	padding: 3rem;
+	padding: 2rem;
+	max-width: 1000px;
+	max-height: 500px;
 }
 
 /*column*/
 .col{
 	float: left;
-	width: 33.3%;
-	width: calc(100%/3);
+	width: 33%;
+	height: 250px;
+	text-align: center;
 }
 
 /*bounding contaxt infor*/
@@ -153,12 +158,14 @@ nav ul li a{
 /*about selfie*/
 .me {
 	float: right;
-	padding: 10px;
+	padding: 30px;
 }
 
 /*about footer bounding*/
 .myimages-container{
-	padding-left: 220px;
+	width: 650px;
+	height: 300px;
+	margin: auto;
 } 
 
 /*media page containing box*/
@@ -168,6 +175,10 @@ nav ul li a{
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 100px;
+}
+
+.resume{
+	padding: 50px;
 }
 
 /*contact footer*/
