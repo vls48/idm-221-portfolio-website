@@ -225,6 +225,17 @@ nav ul li a:hover {
 	font-weight: 200;
 }
 
+.bannerbox{
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	min-height: 200px;
+}
+
+.trad{
+	height: 100%
+	width: 100%;
+}
 /*──────────────────────────────────────────
 ─██████████─████████████───██████████████─
 ─██░░░░░░██─██░░░░░░░░████─██░░░░░░░░░░██─
