@@ -44,7 +44,8 @@
 
 body { 
 	font-size: 16px;
-	background-image: url(images/general/asanoha.png); /*background star image*/
+	background-image: url(images/general/asanoha.png);
+	background-attachment: fixed; /*background star image*/
 }
 
 /*about me footer*/
@@ -55,7 +56,15 @@ figure{
 }
 
 figcaption{
-	text-align: center;
+	font-size: 80px;
+	font-weight: bold;
+	display: inline-block;
+	color: white;
+	opacity: .6;
+}
+
+a figcaption{
+	text-decoration: none;
 }
 
 header{
@@ -78,7 +87,7 @@ main{
 
 /*nav styles*/
 nav{
-	background-color: darkgrey;
+	background-color: rgba(169,169,169, 1);
 	text-align: center;
 }
 
@@ -127,7 +136,7 @@ nav ul li a:hover {
 }
 
 .bannerbox{
-	background-color: silver;
+	background-color: rgba(192, 192, 192, .5);
 	padding-left: 20px;
 	padding-right: 20px;
 	width: 100%;
@@ -144,6 +153,10 @@ nav ul li a:hover {
 	padding: 2rem;
 	max-width: 1000px;
 	max-height: 500px;
+}
+
+.digital{
+	padding: 50px;
 }
 
 /*column*/
@@ -175,6 +188,14 @@ nav ul li a:hover {
   	width: calc(100%/3);
   	padding-left: 100px;
   	color: dimgrey;
+}
+
+.imagesize{
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
+	border: 1px solid black;
+	margin: 20px;
 }
 
 /*about selfie*/
@@ -234,9 +255,23 @@ nav ul li a:hover {
 	opacity: .5;
 }
 
+.trad:hover + .tradi{
+	transition: opacity 0.6s ease;
+	opacity: 1;
+}
+
+.tradi{
+	padding-top: 226px;
+}
+
 .digitalimg:hover{
 	transition: opacity 0.6s ease;
 	opacity: .5;
+}
+
+.digitalimg:hover + .digi{
+	transition: opacity 0.6s ease;
+	opacity: 1;
 }
 /*──────────────────────────────────────────
 ─██████████─████████████───██████████████─
