@@ -258,13 +258,10 @@ nav ul li a:hover {
 	opacity: .5;
 }
 
-/*.covertraditional:hover + .tradi{
+.trad:hover + .tradi{
 	transition: opacity 0.6s ease;
 	opacity: 1;
 } 
-
-^ask about in class
-*/
 
 .tradi{
 	padding-top: 226px;
@@ -280,12 +277,11 @@ nav ul li a:hover {
 	opacity: .5;
 }
 
-/*.digitalimg:hover + .digi{
+.digitalimg:hover + .digi{
 	transition: opacity 0.6s ease;
 	opacity: 1;
 } 
-^ask about in class
-*/
+
 /*──────────────────────────────────────────
 ─██████████─████████████───██████████████─
 ─██░░░░░░██─██░░░░░░░░████─██░░░░░░░░░░██─
