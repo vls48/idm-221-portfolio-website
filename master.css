@@ -189,6 +189,21 @@ nav ul li a:hover {
 	font-size: 18px;
 }
 
+.full{
+	margin: auto;
+	max-height: 500px;
+	display: block;
+}
+
+.greyfilter{
+	background-color: rgba(192, 192, 192, .5);
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 50px;
+
+}
+
 .homeheader{
 	height:600px;
 	background-color: silver;
@@ -198,8 +213,13 @@ nav ul li a:hover {
 	height: 200px;
 	width: 200px;
 	overflow: hidden;
-	border: 1px solid black;
+	border: 1px solid silver;
 	margin: 20px;
+}
+
+.imagesize:hover{
+	transition: opacity 0.6s ease;
+	opacity: .5;
 }
 
 /*about selfie*/
