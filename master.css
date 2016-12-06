@@ -21,6 +21,8 @@
 
 .ff-body{
 	font-family: 'Dosis-Regular', Arial, sans-serif;  /*primary paragraph text font*/
+	font-size: 18px;
+	color: dimgrey;
 }
 
 .ff-header{
@@ -40,6 +42,7 @@
 #  |  $$$$$$/
 #   \______/
 */
+
 * {box-sizing: border-box; }
 
 body { 
@@ -48,6 +51,7 @@ body {
 	background-attachment: fixed; /*background star image*/
 }
 
+/*figure stlyes*/
 /*about me footer*/
 figure{ 
 	display: inline-block;
@@ -77,11 +81,6 @@ h2{
 	color: dimgrey;
 	text-align: right;
 	margin: 30px;
-}
-
-.ff-body{
-	font-size: 18px;
-	color: dimgrey;
 }
 
 /*nav styles*/
@@ -154,10 +153,6 @@ nav ul li a:hover {
 	max-height: 500px;
 }
 
-.digital{
-	padding: 50px;
-}
-
 /*column*/
 .col{
 	float: left;
@@ -173,6 +168,21 @@ nav ul li a:hover {
 	padding-right: 30%;
 	padding-top: 125px;
 }
+
+/*media splash page styles*/
+.digital{
+	padding: 50px;
+}
+
+.digitalimg:hover{
+	transition: opacity 0.6s ease;
+	opacity: .5;
+}
+
+.digitalimg:hover + .digi{
+	transition: opacity 0.6s ease;
+	opacity: 1;
+} 
 
 /*resume content categories*/
 .emblem{
@@ -217,6 +227,7 @@ nav ul li a:hover {
 	margin: 20px;
 }
 
+/*hover for each media page project*/
 .imagesize:hover{
 	transition: opacity 0.6s ease;
 	opacity: .5;
@@ -265,6 +276,7 @@ nav ul li a:hover {
 	font-weight: 200;
 }
 
+/*media splash page styles*/
 .trad{
 	clear: both; 
 	overflow: auto;
@@ -292,16 +304,6 @@ nav ul li a:hover {
 	opacity: .6;
 }
 
-.digitalimg:hover{
-	transition: opacity 0.6s ease;
-	opacity: .5;
-}
-
-.digitalimg:hover + .digi{
-	transition: opacity 0.6s ease;
-	opacity: 1;
-} 
-
 /*──────────────────────────────────────────
 ─██████████─████████████───██████████████─
 ─██░░░░░░██─██░░░░░░░░████─██░░░░░░░░░░██─
@@ -315,17 +317,10 @@ nav ul li a:hover {
 ─██░░░░░░██─██░░░░░░░░████─██░░░░░░░░░░██─
 ─██████████─████████████───██████████████─
 ──────────────────────────────────────────*/
+/*on contact page*/
 #airplane{
 	padding: 6rem;
 	padding-bottom: 4rem;
-}
-
-/*home*/
-#welcome{
-	font-size: 28px;
-	text-align: left;
-	padding-left: 125px;
-	padding-top: 25px;
 }
 
 #homeselfie{
